@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chemical Equation Balancer</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Chemical Equation Balancer</h1>
+    <div id="input-container">
+        <textarea id="equation-input" placeholder="Enter chemical equation"></textarea>
+        <button id="balance-btn">Balance</button>
+    </div>
+    <div id="output-container">
+        <h2>Result:</h2>
+        <p id="balanced-equation"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
